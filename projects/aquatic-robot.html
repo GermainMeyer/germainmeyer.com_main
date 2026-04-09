@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morphogenesis-Inspired Reconfigurable Robots in Aquatic Environments - Germain Meyer</title>
+  <meta name="description" content="Detailed project page for morphogenesis-inspired reconfigurable robots in aquatic environments by Germain Meyer at CREATE Lab, EPFL.">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <main class="project-page">
+    <p class="project-back"><a href="../index.html#project-aquatic-robot">&larr; Back to project</a></p>
+
+    <header class="project-hero">
+      <div class="project-hero-copy">
+        <h1>Morphogenesis-Inspired Reconfigurable Robots in Aquatic Environments</h1>
+        <p class="project-hero-subtitle">CREATE Lab, EPFL</p>
+      </div>
+      <div class="project-hero-meta">
+        <p class="project-hero-date">March-June 2022</p>
+        <img src="../images/aquatic-robot/create-lab.png" alt="CREATE Lab logo" class="project-hero-logo">
+      </div>
+    </header>
+
+    <section class="project-intro">
+      <p>
+        Taking inspiration from morphogenesis, adhesion, and de-adhesion in nature,
+        this project explores how to change the configuration of floating objects in aquatic environments.
+      </p>
+    </section>
+
+    <section class="project-approach">
+      <h2>Approach</h2>
+      <ul>
+        <li>Floating object behavior is stochastic. By leveraging grouping probabilities, Markov chains can be used to control configuration while taking advantage of the environment.</li>
+      </ul>
+    </section>
+
+    <section class="project-block-grid project-block-grid--three">
+      <article class="detail-block">
+        <div class="detail-copy">
+          <h3>Experimental setup</h3>
+          <ul>
+            <li>Bubble wall rotation controlled in speed and position.</li>
+            <li>Computer vision to track the object trajectory.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/aquatic-robot/experimental-setup.png" alt="Experimental setup for aquatic object reconfiguration">
+        </div>
+      </article>
+
+      <article class="detail-block">
+        <div class="detail-copy">
+          <h3>Understanding object behavior</h3>
+          <ul>
+            <li>Extracted state-transition probability matrices from experimental time series as a Markov chain.</li>
+            <li>Selected control strategies based on the greatest probability of reaching the goal state.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/aquatic-robot/markov-analysis.png" alt="Markov-chain analysis of aquatic object behavior">
+        </div>
+      </article>
+
+      <article class="detail-block detail-block--result">
+        <div class="detail-copy">
+          <h3>Results</h3>
+          <ul>
+            <li>Successful state transition from start to goal states.</li>
+            <li>Experimental results followed the predicted trend.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/aquatic-robot/state-transitions.png" alt="Observed state transitions in aquatic object manipulation experiments">
+        </div>
+      </article>
+    </section>
+
+    <section class="project-extra">
+      <p>Paper presented at RoboSoft 2025 - DOI: <a href="https://doi.org/10.1109/RoboSoft63089.2025.11020845" target="_blank" rel="noopener">10.1109/RoboSoft63089.2025.11020845</a></p>
+    </section>
+  </main>
+</body>
+</html>
+

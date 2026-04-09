@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimodal Soft Sensor to Assess Food Doneness - Germain Meyer</title>
+  <meta name="description" content="Detailed project page for the multimodal soft sensor to assess food doneness by Germain Meyer at CREATE Lab, EPFL.">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <main class="project-page">
+    <p class="project-back"><a href="../index.html#project-food-sensor">&larr; Back to project</a></p>
+
+    <header class="project-hero">
+      <div class="project-hero-copy">
+        <h1>Multimodal Soft Sensor to Assess Food Doneness</h1>
+        <p class="project-hero-subtitle">CREATE Lab, EPFL</p>
+      </div>
+      <div class="project-hero-meta">
+        <p class="project-hero-date">October-December 2023</p>
+        <img src="../images/vertical-farming/create-lab.png" alt="CREATE Lab logo" class="project-hero-logo">
+      </div>
+    </header>
+
+    <section class="project-intro">
+      <p>
+        Humans perceive doneness based on numerous variables, from smells to colors and touch.
+        This project asks how a robot can combine several of those signals to cook the perfect meal.
+      </p>
+    </section>
+
+    <section class="project-approach">
+      <h2>Approach</h2>
+      <ul>
+        <li>Combine several sensing modalities into a single robot fingertip form factor.</li>
+        <li>Mount the sensor on a robotic arm to use arm motion itself to enhance the modalities and differentiate textures.</li>
+      </ul>
+    </section>
+
+    <section class="project-block-grid">
+      <article class="detail-block">
+        <div class="detail-copy">
+          <h3>Exploration of modalities</h3>
+          <ul>
+            <li>Stiffness, permittivity, conductivity, and temperature.</li>
+            <li>Vision and sound features including Laplacian, FFT, and PSD.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/food-sensor/modalities-probe.png" alt="Prototype setup used to explore multiple sensing modalities on toast">
+        </div>
+      </article>
+
+      <article class="detail-block">
+        <div class="detail-copy">
+          <h3>Design and fabrication</h3>
+          <ul>
+            <li>Combination of the most relevant modalities in a compact package.</li>
+            <li>Soft pressure sensor cast in silicone.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/food-sensor/sensor-food.png" alt="Front view of the fabricated multimodal soft sensor">
+        </div>
+      </article>
+
+      <article class="detail-block">
+        <div class="detail-copy">
+          <h3>Arm-sensor combination</h3>
+          <ul>
+            <li>Sensor package mounted on a UR3 robotic arm.</li>
+            <li>Combination of arm movement and sensor modalities for greater distinction.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/food-sensor/arm-sensor-toast.jpg" alt="Multimodal sensor mounted on a UR3 interacting with toast">
+        </div>
+      </article>
+
+      <article class="detail-block detail-block--result">
+        <div class="detail-copy">
+          <h3>Results</h3>
+          <ul>
+            <li>Tested on toasts with different cooking times.</li>
+            <li>Clear distinction between cooking times with differences as small as 30 seconds.</li>
+          </ul>
+        </div>
+        <div class="detail-media">
+          <img src="../images/food-sensor/results.png" alt="Results plot for food doneness discrimination">
+        </div>
+      </article>
+    </section>
+
+    <section class="project-extra">
+      <p>Sensor used for Rapid Action Evaluation and Optimization. Paper presented at RoboSoft 2024 - DOI: <a href="https://doi.org/10.1109/RoboSoft60065.2024.10521945" target="_blank" rel="noopener">10.1109/RoboSoft60065.2024.10521945</a></p>
+    </section>
+  </main>
+</body>
+</html>
+
